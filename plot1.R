@@ -15,7 +15,7 @@ household_power_consumption <-read.csv.sql("exdata-data-household_power_consumpt
 png(file = "plot1.png")
 
 #hard to tell if the colour was red or dark orange
-hist(household_power_consumption$Global_active_power,col='red', 
+hist(household_power_consumption$Global_active_power,col='orangered2', 
      main = "Global Active Power", xlab = "Global Active Power (kilowatts)")
 dev.off()
 
